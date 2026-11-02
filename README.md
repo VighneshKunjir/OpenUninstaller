@@ -7,6 +7,24 @@ telemetry.
 Written from scratch in Python + PySide6. The feature set follows what a power-user uninstaller is
 expected to do, but none of the code or data comes from any commercial product.
 
+## Screenshots
+
+| Light | Dark |
+|---|---|
+| ![All Programs, light theme](docs/screenshots/all-programs-light.png) | ![All Programs, dark theme](docs/screenshots/all-programs-dark.png) |
+
+**Uninstall wizard.** Run the program's own uninstaller, then review what it left behind. **Bold** items
+were created by the program; red items are protected and are never deleted.
+
+| | |
+|---|---|
+| ![Uninstall wizard options](docs/screenshots/wizard-setup-light.png) | ![Leftover registry items](docs/screenshots/leftovers-registry-dark.png) |
+| ![Leftover files and folders](docs/screenshots/leftovers-files-light.png) | ![Autorun Manager](docs/screenshots/autorun-dark.png) |
+
+![Uninstall History](docs/screenshots/history-light.png)
+
+<sub>Screenshots use sample data. Regenerate them with `.venv\Scripts\python docs\make_screenshots.py`.</sub>
+
 ## Install
 
 Download **`OpenUninstaller-<version>-Setup.exe`** from the
